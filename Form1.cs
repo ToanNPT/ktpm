@@ -29,12 +29,15 @@ namespace Buoi07_TinhToan3
             dr = MessageBox.Show("Bạn có thực sự muốn thoát không?",
                                  "Thông báo", MessageBoxButtons.YesNo);
             if (dr == DialogResult.Yes)
-                this.Close();
+            {
+                Close();
+            }
         }
 
 
         private string remove_nev(string a)
         {
+            a = a.Replace(".", ",");
             int n = a.Length, i = 0, dem = 0;
             while (i < n && a[i] == '-')
             {
@@ -43,9 +46,13 @@ namespace Buoi07_TinhToan3
             }
 
             if (dem % 2 == 0)
+            {
                 return a.Substring(dem);
+            }
             else
+            {
                 return a.Substring(dem - 1);
+            }
         }
 
         private void btnTinh_Click(object sender, EventArgs e)
@@ -54,16 +61,38 @@ namespace Buoi07_TinhToan3
             double so1, so2, kq = 0;
             try
             {
-                so1 = double.Parse(remove_nev(txtSo1.Text.ToString().Replace(",",".")));
-                so2 = double.Parse(remove_nev(txtSo2.Text.ToString().Replace(",",".")));
-                if (radCong.Checked) kq = so1 + so2;
-                else if (radTru.Checked) kq = so1 - so2;
-                else if (radNhan.Checked) kq = so1 * so2;
-                else if (radChia.Checked && so2 != 0) kq = so1 / so2;
-                //Hiển thị kết quả lên trên ô kết quả
-                txtKq.Text = kq.ToString();
+                // Reset kết quả
+                txtKq.Text = ""; 
+                so1 = double.Parse(remove_nev(txtSo1.Text));
+                so2 = double.Parse(remove_nev(txtSo2.Text));
+                if (radChia.Checked && so2 == 0)
+                {
+                    MessageBox.Show("Cannot divide by 0!", "Warning", MessageBoxButtons.OK);
+                    txtSo2.Focus();
+                }
+                else
+                {
+                    if (radCong.Checked)
+                    {
+                        kq = so1 + so2;
+                    }
+                    else if (radTru.Checked)
+                    {
+                        kq = so1 - so2;
+                    }
+                    else if (radNhan.Checked)
+                    {
+                        kq = so1 * so2;
+                    }
+                    else if (radChia.Checked && so2 != 0)
+                    {
+                        kq = so1 / so2;
+                    }
+                    //Hiển thị kết quả lên trên ô kết quả
+                    txtKq.Text = kq.ToString();
+                }
             }
-            catch (FormatException ex)
+            catch (FormatException)
             {
                 DialogResult dr = MessageBox.Show("You just filled out wrong format number", "Warning", MessageBoxButtons.OK);
                 txtSo2.Text = "";
