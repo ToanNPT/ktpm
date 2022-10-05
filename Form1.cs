@@ -62,7 +62,8 @@ namespace Buoi07_TinhToan3
             try
             {
                 // Reset kết quả
-                txtKq.Text = ""; 
+                txtKq.Text = "";
+                if (txtSo1.Text.Contains(",") || txtSo2.Text.Contains(",")) throw new FormatException();
                 so1 = double.Parse(remove_nev(txtSo1.Text));
                 so2 = double.Parse(remove_nev(txtSo2.Text));
                 if (radChia.Checked && so2 == 0)
