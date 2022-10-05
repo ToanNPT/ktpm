@@ -27,3 +27,14 @@ E:\HK7(22-23)\KiemThuPhanMem\Tuan05\Buoi07_TinhToan3\obj\Debug\Buoi07_TinhToan3.
 E:\HK7(22-23)\KiemThuPhanMem\Tuan05\Buoi07_TinhToan3\obj\Debug\Buoi07_TinhToan3.csproj.CoreCompileInputs.cache
 E:\HK7(22-23)\KiemThuPhanMem\Tuan05\Buoi07_TinhToan3\obj\Debug\Buoi07_TinhToan3.exe
 E:\HK7(22-23)\KiemThuPhanMem\Tuan05\Buoi07_TinhToan3\obj\Debug\Buoi07_TinhToan3.pdb
+E:\HK7(22-23)\KiemThuPhanMem\Tuan05\ktpm\ktpm\bin\Debug\Buoi07_TinhToan3.exe.config
+E:\HK7(22-23)\KiemThuPhanMem\Tuan05\ktpm\ktpm\bin\Debug\Buoi07_TinhToan3.exe
+E:\HK7(22-23)\KiemThuPhanMem\Tuan05\ktpm\ktpm\bin\Debug\Buoi07_TinhToan3.pdb
+E:\HK7(22-23)\KiemThuPhanMem\Tuan05\ktpm\ktpm\obj\Debug\Buoi07_TinhToan3.csproj.AssemblyReference.cache
+E:\HK7(22-23)\KiemThuPhanMem\Tuan05\ktpm\ktpm\obj\Debug\Buoi07_TinhToan3.csproj.SuggestedBindingRedirects.cache
+E:\HK7(22-23)\KiemThuPhanMem\Tuan05\ktpm\ktpm\obj\Debug\Buoi07_TinhToan3.Form1.resources
+E:\HK7(22-23)\KiemThuPhanMem\Tuan05\ktpm\ktpm\obj\Debug\Buoi07_TinhToan3.Properties.Resources.resources
+E:\HK7(22-23)\KiemThuPhanMem\Tuan05\ktpm\ktpm\obj\Debug\Buoi07_TinhToan3.csproj.GenerateResource.cache
+E:\HK7(22-23)\KiemThuPhanMem\Tuan05\ktpm\ktpm\obj\Debug\Buoi07_TinhToan3.csproj.CoreCompileInputs.cache
+E:\HK7(22-23)\KiemThuPhanMem\Tuan05\ktpm\ktpm\obj\Debug\Buoi07_TinhToan3.exe
+E:\HK7(22-23)\KiemThuPhanMem\Tuan05\ktpm\ktpm\obj\Debug\Buoi07_TinhToan3.pdb

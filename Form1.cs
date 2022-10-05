@@ -31,12 +31,12 @@ namespace Buoi07_TinhToan3
             if (dr == DialogResult.Yes)
                 this.Close();
         }
-        
-      
+
+
         private string remove_nev(string a)
         {
             int n = a.Length, i = 0, dem = 0;
-            while( i < n && a[i] == '-')
+            while (i < n && a[i] == '-')
             {
                 dem++;
                 i++;
@@ -63,7 +63,7 @@ namespace Buoi07_TinhToan3
                 //Hiển thị kết quả lên trên ô kết quả
                 txtKq.Text = kq.ToString();
             }
-            catch(FormatException ex)
+            catch (FormatException ex)
             {
                 DialogResult dr = MessageBox.Show("You just filled out wrong format number", "Warning", MessageBoxButtons.OK);
                 txtSo2.Text = "";
@@ -71,7 +71,7 @@ namespace Buoi07_TinhToan3
                 txtSo1.Focus();
             }
             //Thực hiện phép tính dựa vào phép toán được chọn
-            
+
         }
 
         private void txtSo1_Click(object sender, EventArgs e)
