@@ -26,3 +26,13 @@ D:\HK1_N4\KTPM\week5_KythuatthietkeTestcase_P3\Buoi07_TinhToan3\obj\Debug\Buoi07
 D:\HK1_N4\KTPM\week5_KythuatthietkeTestcase_P3\Buoi07_TinhToan3\obj\Debug\Buoi07_TinhToan3.csproj.CoreCompileInputs.cache
 D:\HK1_N4\KTPM\week5_KythuatthietkeTestcase_P3\Buoi07_TinhToan3\obj\Debug\Buoi07_TinhToan3.exe
 D:\HK1_N4\KTPM\week5_KythuatthietkeTestcase_P3\Buoi07_TinhToan3\obj\Debug\Buoi07_TinhToan3.pdb
+D:\IDE\VisualStudio\ktpm\bin\Debug\Buoi07_TinhToan3.exe.config
+D:\IDE\VisualStudio\ktpm\bin\Debug\Buoi07_TinhToan3.exe
+D:\IDE\VisualStudio\ktpm\bin\Debug\Buoi07_TinhToan3.pdb
+D:\IDE\VisualStudio\ktpm\obj\Debug\Buoi07_TinhToan3.csproj.AssemblyReference.cache
+D:\IDE\VisualStudio\ktpm\obj\Debug\Buoi07_TinhToan3.Form1.resources
+D:\IDE\VisualStudio\ktpm\obj\Debug\Buoi07_TinhToan3.Properties.Resources.resources
+D:\IDE\VisualStudio\ktpm\obj\Debug\Buoi07_TinhToan3.csproj.GenerateResource.cache
+D:\IDE\VisualStudio\ktpm\obj\Debug\Buoi07_TinhToan3.csproj.CoreCompileInputs.cache
+D:\IDE\VisualStudio\ktpm\obj\Debug\Buoi07_TinhToan3.exe
+D:\IDE\VisualStudio\ktpm\obj\Debug\Buoi07_TinhToan3.pdb
