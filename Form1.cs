@@ -37,7 +37,7 @@ namespace Buoi07_TinhToan3
 
         private string remove_nev(string a)
         {
-            a = a.Replace(",", ".");
+            a = a.Replace(".", ",");
             int n = a.Length, i = 0, dem = 0;
             while (i < n && a[i] == '-')
             {
