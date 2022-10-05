@@ -54,8 +54,8 @@ namespace Buoi07_TinhToan3
             double so1, so2, kq = 0;
             try
             {
-                so1 = double.Parse(remove_nev(txtSo1.Text));
-                so2 = double.Parse(remove_nev(txtSo2.Text));
+                so1 = double.Parse(remove_nev(txtSo1.Text.ToString().Replace(",",".")));
+                so2 = double.Parse(remove_nev(txtSo2.Text.ToString().Replace(",",".")));
                 if (radCong.Checked) kq = so1 + so2;
                 else if (radTru.Checked) kq = so1 - so2;
                 else if (radNhan.Checked) kq = so1 * so2;
